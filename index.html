@@ -81,43 +81,100 @@ img {
     width: 294px;
     border-radius: 8px;
     background-color: #FFFFFF;
+    
+}
+    $bg: rgba(0, 0, 0, 0.2);
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
 }
 </style>
 <div class="cardpie hvr-float-shadow" id="card">
-  <a href="piebot.html">
-  <img src="https://cdn.discordapp.com/attachments/280674914523021312/335390129571102720/lolha.png" alt="PieBot" style="width:100%">
-  <div class="container">
-    <h1><b><font color="#FFB200">PieBot</font></b></h1>
-    <p><font color="grey">A bot which is a bot.</font></font></p>
+  <img src="https://cdn.discordapp.com/attachments/280674914523021312/335390129571102720/lolha.png" alt="PieBot" class="image" style="width:100%">
+  <div class="middle">
+    <a href="https://discordapp.com/oauth2/authorize?client_id=288221668290068480&scope=bot&permissions=2146827519"><h1 class="button is-green is-outlined hvr-sweep-to-top">Invite Me!</h1></a>
   </div>
-</a>
+  <div class="container">
+    <a href="piebot.html">
+    <h1><b><font color="#FFB200">PieBot</font></font></b></h1>
+    <p><font color="grey">A bot which is a bot.</font></font></p>
+    </a>
+  </div>
 </div>
 <div class="carddiscordius hvr-float-shadow" id="card">
-  <a href="discordius.html">
-  <img src="https://cdn.discordapp.com/attachments/280674914523021312/335397368952520706/bot-con.png" alt="Discordius" style="width:100%">
+  <img src="https://cdn.discordapp.com/attachments/280674914523021312/335397368952520706/bot-con.png" alt="Discordius" class="image" style="width:100%">
+     <div class="middle">
+    <a href="https://discordapp.com/oauth2/authorize?client_id=327902710349430785&scope=bot&permissions=8"><h1 class="button is-green is-outlined hvr-sweep-to-top">Invite Me!</h1></a>
+         </div>
   <div class="container">
+      <a href="discordius.html">
     <h1><b><font color="white">Discordius</font></b></h1>
     <p><font color="white">Discord related bot.</font></font></p>
+  </a>
   </div>
-</a>
 </div>
 <div class="cardnormal hvr-float-shadow" id="card">
-  <a href="https://discordapp.com/oauth2/authorize?client_id=333369434091814923&scope=bot&permissions=0">
-  <img src="https://cdn.discordapp.com/attachments/324672745181020170/333380153738788865/newbawt.png" alt="MrBawt" style="width:100%">
+  <img src="https://cdn.discordapp.com/attachments/324672745181020170/333380153738788865/newbawt.png" alt="MrBawt" class="image" style="width:100%">
+         <div class="middle">
+    <a href="https://discordapp.com/oauth2/authorize?client_id=333369434091814923&scope=bot&permissions=0"><h1 class="button is-green is-outlined hvr-sweep-to-top">Invite Me!</h1></a>
+         </div>
   <div class="container">
+      <a href="https://discordapp.com/oauth2/authorize?client_id=333369434091814923&scope=bot&permissions=0">
     <h1><b><font color="black">MrBawt</font></b></h1>
     <p><font color="black">A Multipurpose bot.</font></p>
+    </a>
   </div>
-</a>
 </div>
 <div class="cardnormal hvr-float-shadow" id="card">
-  <a href="https://discordapp.com/oauth2/authorize?client_id=316617530506739712&scope=bot&permissions=0">
   <img src="https://cdn.discordapp.com/attachments/265156361791209475/335554887926546432/553c2fd8f43e67f2958487c4fff73929.png" alt="HyperCircle" style="width:100%">
+             <div class="middle">
+    <a href="https://discordapp.com/oauth2/authorize?client_id=316617530506739712&scope=bot&permissions=0"><h1 class="button is-green is-outlined hvr-sweep-to-top">Invite Me!</h1></a>
+         </div>
   <div class="container">
+      <a href="https://discordapp.com/oauth2/authorize?client_id=316617530506739712&scope=bot&permissions=0">
     <h1><b><font color="black">HyperCircle</font></b></h1>
     <p><font color="black">Do h)hello for info.</font></p>
+    </a>
   </div>
-</a>
+</div>
+<div class="cardnormal hvr-float-shadow" id="card">
+  <img src="https://cdn.discordapp.com/avatars/172002275412279296/f5f65755f67ae1dc88d9bb271d0f5bef.png" alt="HyperCircle" style="width:100%">
+             <div class="middle">
+    <a href="https://discordapp.com/oauth2/authorize?&client_id=172002255350792192&scope=bot&permissions=0"><h1 class="button is-green is-outlined hvr-sweep-to-top">Invite Me!</h1></a>
+         </div>
+  <div class="container">
+      <a href="https://discordapp.com/oauth2/authorize?&client_id=172002255350792192&scope=bot&permissions=0">
+    <h1><b><font color="black">Tatsumaki</font></b></h1>
+    <p><font color="black">The capable and unhelpful Tatsumaki.</font></p>
+    </a>
+  </div>
 </div>
 <div class="container">
   <hr>
