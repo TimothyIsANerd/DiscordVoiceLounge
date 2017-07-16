@@ -50,29 +50,58 @@
   <hr>
 <style>
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    border-radius: 5px;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-img {
-    border-radius: 5px 5px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
 }
 
 .container {
-    padding: 2px 16px;
+  padding: 0 16px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #7289da;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
 </style>
   <div class="card">
-  <img src="https://cdn.discordapp.com/attachments/331604718084161538/335546599700692993/bawt.png" alt="Bot Hub" style="width:100%">
+  <img src="https://cdn.discordapp.com/attachments/331604718084161538/335546599700692993/bawt.png" alt="Bot HUb" style="width:100%">
   <div class="container">
-    <h4><b><font face="verdana"><font color="#7289da">Bot Hub (the server) is the official server for Bot Hub (the site)</font></b></h4> 
-    <a href="https://discord.gg/U9KEKdC"><p><font color="#7289da"><font size="6"><u>Join!</a></u></font></font></p>
+    <h1><font color="#7892da">Bot Hub</h1>
+    <p class="title">Bot Hub is a guild that lets others share their apps/bots with Discord itself.</p>
+    <p>By Timothy#3773</p>
+   <p><button><u>Join</u></button></p>
   </div>
 </div>
 <div class="container">
