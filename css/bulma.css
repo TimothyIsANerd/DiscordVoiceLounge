@@ -144,7 +144,7 @@ pre {
 }
 
 body {
-  color: #4a4a4a;
+  color: #7289da;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -4702,7 +4702,7 @@ a.nav-item:not(.button).is-tab.is-active {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  background-color: #1a1a1a;
+  background-color: #7289da;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4729,7 +4729,7 @@ a.nav-item:not(.button).is-tab.is-active {
 }
 
 .navbar {
-  background-color: black;
+  background-color: #7289da;
   min-height: 1.25rem;
   position: relative;
 }
