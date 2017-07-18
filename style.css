@@ -6,32 +6,21 @@
    left:0;
    width:100%;
    float: left;
-   color: black;
+   color: #7289da;
      z-index: 9;
 }
 
 #bottom {
    left:0;
    width:100%;
-   color: black;
+   color: #7289da;
 }
 
   html {
   background-color: white;
   }
 
-#header1 {
-  margin-top: 25px;
-  height: 350px;
-  width: 100%;
-  background-size: 100%;
-  background-image: url('https://cdn.discordapp.com/attachments/331604718084161538/335390413659832322/7289da.png');
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 #header2 {
   margin-top: 25px;
   height: 350px;
